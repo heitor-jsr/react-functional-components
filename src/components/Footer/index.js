@@ -5,7 +5,7 @@ import { Container } from './styles';
 export default function Footer({ onToggleTheme, selectedTheme }) {
   return (
     <Container>
-      <span>JStack's Blog. Todos os direitos reservados.</span>
+      <span>Theme's Blog. All rights reserved.</span>
       <button type="button" onClick={onToggleTheme}>
         {selectedTheme === 'dark' ? '🌞' : '🌚'}
       </button>
